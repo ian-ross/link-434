@@ -6,8 +6,8 @@ K capacitor cap
 F ~
 $ENDCMP
 #
-$CMP Conn_01x04
-D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+$CMP Conn_01x02
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
 $ENDCMP
@@ -33,6 +33,12 @@ $ENDCMP
 $CMP Ferrite_Bead_Small
 D Ferrite bead, small symbol
 K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
+$CMP Jumper_NO_Small
+D Jumper, normally open, small symbol
+K jumper link bridge NO
 F ~
 $ENDCMP
 #
