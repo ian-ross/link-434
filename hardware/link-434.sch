@@ -794,8 +794,6 @@ Wire Wire Line
 Connection ~ 3000 3350
 Wire Wire Line
 	3000 3350 3000 3325
-Text Notes 2200 5225 0    50   Italic 0
-TODO: REORDER PINS HERE
 Wire Wire Line
 	1875 4925 1875 4475
 Connection ~ 1875 4475
@@ -820,7 +818,9 @@ P 4675 2775
 F 0 "RN1" V 4625 2525 50  0000 C CNN
 F 1 "100" V 4625 3000 50  0000 C CNN
 F 2 "link-434:CAT16101J4LF" V 4595 2775 50  0001 C CNN
-F 3 "~" H 4675 2775 50  0001 C CNN
+F 3 "https://www.mouser.at/datasheet/2/54/CATCAY-777361.pdf" H 4675 2775 50  0001 C CNN
+F 4 "https://www.mouser.at/ProductDetail/Bourns/CAT16-101J4LF" H 4675 2775 50  0001 C CNN "Link"
+F 5 "CAT16-101J4LF" H 4675 2775 50  0001 C CNN "MPN"
 	4    4675 2775
 	0    1    1    0   
 $EndComp
@@ -835,7 +835,9 @@ P 4675 2875
 F 0 "RN2" V 4625 2625 50  0000 C CNN
 F 1 "100" V 4625 3100 50  0000 C CNN
 F 2 "link-434:CAT16101J4LF" V 4595 2875 50  0001 C CNN
-F 3 "~" H 4675 2875 50  0001 C CNN
+F 3 "https://www.mouser.at/datasheet/2/54/CATCAY-777361.pdf" H 4675 2875 50  0001 C CNN
+F 4 "https://www.mouser.at/ProductDetail/Bourns/CAT16-101J4LF" H 4675 2875 50  0001 C CNN "Link"
+F 5 "CAT16-101J4LF" H 4675 2875 50  0001 C CNN "MPN"
 	1    4675 2875
 	0    1    1    0   
 $EndComp
@@ -846,7 +848,9 @@ P 4675 2975
 F 0 "RN2" V 4625 2725 50  0000 C CNN
 F 1 "100" V 4625 3200 50  0000 C CNN
 F 2 "link-434:CAT16101J4LF" V 4595 2975 50  0001 C CNN
-F 3 "~" H 4675 2975 50  0001 C CNN
+F 3 "https://www.mouser.at/datasheet/2/54/CATCAY-777361.pdf" H 4675 2975 50  0001 C CNN
+F 4 "https://www.mouser.at/ProductDetail/Bourns/CAT16-101J4LF" H 4675 2975 50  0001 C CNN "Link"
+F 5 "CAT16-101J4LF" H 4675 2975 50  0001 C CNN "MPN"
 	2    4675 2975
 	0    1    1    0   
 $EndComp
@@ -857,7 +861,9 @@ P 4675 3075
 F 0 "RN2" V 4625 2825 50  0000 C CNN
 F 1 "100" V 4625 3300 50  0000 C CNN
 F 2 "link-434:CAT16101J4LF" V 4595 3075 50  0001 C CNN
-F 3 "~" H 4675 3075 50  0001 C CNN
+F 3 "https://www.mouser.at/datasheet/2/54/CATCAY-777361.pdf" H 4675 3075 50  0001 C CNN
+F 4 "https://www.mouser.at/ProductDetail/Bourns/CAT16-101J4LF" H 4675 3075 50  0001 C CNN "Link"
+F 5 "CAT16-101J4LF" H 4675 3075 50  0001 C CNN "MPN"
 	3    4675 3075
 	0    1    1    0   
 $EndComp
@@ -880,7 +886,9 @@ P 4675 1575
 F 0 "RN1" V 4625 1325 50  0000 C CNN
 F 1 "100" V 4625 1800 50  0000 C CNN
 F 2 "link-434:CAT16101J4LF" V 4595 1575 50  0001 C CNN
-F 3 "~" H 4675 1575 50  0001 C CNN
+F 3 "https://www.mouser.at/datasheet/2/54/CATCAY-777361.pdf" H 4675 1575 50  0001 C CNN
+F 4 "https://www.mouser.at/ProductDetail/Bourns/CAT16-101J4LF" H 4675 1575 50  0001 C CNN "Link"
+F 5 "CAT16-101J4LF" H 4675 1575 50  0001 C CNN "MPN"
 	1    4675 1575
 	0    1    1    0   
 $EndComp
@@ -891,7 +899,9 @@ P 4675 1675
 F 0 "RN1" V 4625 1425 50  0000 C CNN
 F 1 "100" V 4625 1900 50  0000 C CNN
 F 2 "link-434:CAT16101J4LF" V 4595 1675 50  0001 C CNN
-F 3 "~" H 4675 1675 50  0001 C CNN
+F 3 "https://www.mouser.at/datasheet/2/54/CATCAY-777361.pdf" H 4675 1675 50  0001 C CNN
+F 4 "https://www.mouser.at/ProductDetail/Bourns/CAT16-101J4LF" H 4675 1675 50  0001 C CNN "Link"
+F 5 "CAT16-101J4LF" H 4675 1675 50  0001 C CNN "MPN"
 	2    4675 1675
 	0    1    1    0   
 $EndComp
@@ -902,7 +912,9 @@ P 4675 1775
 F 0 "RN1" V 4625 1525 50  0000 C CNN
 F 1 "100" V 4625 2000 50  0000 C CNN
 F 2 "link-434:CAT16101J4LF" V 4595 1775 50  0001 C CNN
-F 3 "~" H 4675 1775 50  0001 C CNN
+F 3 "https://www.mouser.at/datasheet/2/54/CATCAY-777361.pdf" H 4675 1775 50  0001 C CNN
+F 4 "https://www.mouser.at/ProductDetail/Bourns/CAT16-101J4LF" H 4675 1775 50  0001 C CNN "Link"
+F 5 "CAT16-101J4LF" H 4675 1775 50  0001 C CNN "MPN"
 	3    4675 1775
 	0    1    1    0   
 $EndComp
@@ -925,7 +937,9 @@ P 8100 4950
 F 0 "RN2" V 8200 4950 50  0000 C CNN
 F 1 "100" V 8275 4950 50  0000 C CNN
 F 2 "link-434:CAT16101J4LF" V 8020 4950 50  0001 C CNN
-F 3 "~" H 8100 4950 50  0001 C CNN
+F 3 "https://www.mouser.at/datasheet/2/54/CATCAY-777361.pdf" H 8100 4950 50  0001 C CNN
+F 4 "https://www.mouser.at/ProductDetail/Bourns/CAT16-101J4LF" H 8100 4950 50  0001 C CNN "Link"
+F 5 "CAT16-101J4LF" H 8100 4950 50  0001 C CNN "MPN"
 	4    8100 4950
 	0    1    1    0   
 $EndComp
