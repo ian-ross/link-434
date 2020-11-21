@@ -1,5 +1,5 @@
-ASMFILES=blinky.asm
-OUTFILE=blinky.hex
+ASMFILES=blinky-boot.asm
+OUTFILE=blinky-boot.hex
 INCS=../../code/include
 
 include ../../code/Makefile.common

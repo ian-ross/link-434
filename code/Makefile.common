@@ -1,0 +1,21 @@
+OBJFILES=$(addprefix build/, $(patsubst %.asm, %.rel, $(ASMFILES)))
+
+INCFLAGS=$(addprefix -I, $(INCS))
+
+all: build build/$(OUTFILE)
+
+build:
+	@mkdir -p build
+
+build/$(OUTFILE): $(OBJFILES)
+	$(info Linking $(OUTFILE)...)
+	@sdld -ni $@ $^
+	@mv $(addsuffix .ihx,$(basename $@)) $@
+
+build/%.rel: %.asm
+	$(info Assembling $^...)
+	@sdas8051 $(INCFLAGS) -los $@ $^
+
+.PHONY: clean
+clean:
+	rm -fr build
